@@ -80,3 +80,5 @@ export PATH="./bin:$PATH"
 # Go setup
 export GOPATH="/Users/$USER/Code/go"
 export PATH="$PATH:$GOPATH/bin"
+
+ulimit -n 4096
